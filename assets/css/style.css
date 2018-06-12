@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    background-image: url("../images/polka-dots.png");
+    color: rgb(148, 247, 181);
+}
+#main-container{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#play-area{
+    border-color: rgb(148, 247, 181);
+    border-radius: 5px;
+    border: 5px;
+}
+.buttonz{
+    background-color: rgb(148, 247, 181);
+}
