@@ -13,4 +13,9 @@ body{
 }
 .buttonz{
     background-color: rgb(148, 247, 181);
+    margin: 5px;
+}
+.buttonz:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgb(148, 247, 181);
 }
