@@ -8,6 +8,10 @@ let questionFour = newQuestion("What has always been the final song in IIDX SP K
 let questionFive = newQuestion("Whose alias is 'Cuvelia'?", "answerFour", "TAG", "L.E.D.", "猫又Master", "dj TAKA", "djTAKA");
 let questionSix = newQuestion("Which artist is behind 'Breaking the Ground'?", "answerTwo", "RoughSketch", "Art of Fighters", "L.E.D.", "Gucci Mane", "Art of Fighters");
 let questionSeven = newQuestion("Which Smile.DK song is most known for being in Dance Dance Revolution?", "answerOne", "Butterfly", "Koko Soko", "Boys", "Doki Doki", "Butterfly");
+let questionEight = newQuestion("What IIDX song has the most notes?", "answerThree", "Verflucht Leggendaria", "Mei", "Scripted Connection⇒ long mix", "Mare Nectaris", "Scripted Connection⇒ long mix");
+let questionNine = newQuestion("What was the first level 20 song in Sound Voltex?", "answerOne", "Lachryma《Re:Queen’M》", "][", "HE4VEN", "Illness LiLin", "Lachryma《Re:Queen’M》");
+let questionTen = newQuestion("What was the final version of ReflecBeat?", "answerTwo", "Volzza", "Reflesia", "groovin!", "colette", "Reflesia");
+
 var questions = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven];
 var timeoutTimer;
 var timer = 10;
@@ -36,7 +40,7 @@ function startQuestion(question) {
    <div class='row justify-content-center'><button class='btn questionButton buttonz'answer='answerTwo'>${question.answerTwo}</button></div>
    <div class='row justify-content-center'><button class='btn questionButton buttonz'answer='answerThree'>${question.answerThree}</button></div>
    <div class='row justify-content-center'><button class='btn questionButton buttonz'answer='answerFour'>${question.answerFour}</button></div>
-   <p class='lead timeLeft'></p>
+   <p class='lead timeLeft'>Time remaining: ${timer} seconds.</p>
    `);
     startTimer();
 
