@@ -12,7 +12,7 @@ let questionEight = newQuestion("What IIDX song has the most notes?", "answerThr
 let questionNine = newQuestion("What was the first level 20 song in Sound Voltex?", "answerOne", "Lachryma《Re:Queen’M》", "][", "HE4VEN", "Illness LiLin", "Lachryma《Re:Queen’M》");
 let questionTen = newQuestion("What was the final version of ReflecBeat?", "answerTwo", "Volzza", "Reflesia", "groovin!", "colette", "Reflesia");
 
-var questions = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven];
+var questions = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen];
 var timeoutTimer;
 var timer = 10;
 var index=0;
